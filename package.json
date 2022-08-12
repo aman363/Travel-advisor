@@ -1,7 +1,7 @@
 {
-  "homepage": "https://aman363.github.io/Travel-advisor/",
   "name": "travel_advisor",
   "version": "0.1.0",
+  "homepage": "https://aman363.github.io/travel-advisor/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
@@ -15,16 +15,17 @@
     "google-map-react": "^2.1.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
